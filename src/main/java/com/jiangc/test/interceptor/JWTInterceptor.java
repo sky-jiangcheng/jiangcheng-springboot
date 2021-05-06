@@ -1,6 +1,8 @@
 package com.jiangc.test.interceptor;
 
-import com.jiangc.test.JWTUtils;
+import com.jiangc.test.component.OnlineCounter;
+import com.jiangc.test.util.JWTUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import javax.servlet.http.HttpServletRequest;
@@ -14,6 +16,9 @@ import java.util.Optional;
  * @Date: 2021/5/6 16:40
  */
 public class JWTInterceptor implements HandlerInterceptor {
+
+    @Autowired
+    private OnlineCounter onlineCounter;
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
@@ -32,7 +37,17 @@ public class JWTInterceptor implements HandlerInterceptor {
                     } catch (Exception e) {
                         throw new RuntimeException("token不存在");
                     }
-                });
+                })
+                .map(n->{
+                    //存储该token方便记录在线人数
+                    try {
+                        onlineCounter.insertToken(token);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                    return n.getExpiration();
+                })
+                .orElseThrow(()->new RuntimeException("token已过期！请用户重新登陆！"));
 
         return true;
     }
