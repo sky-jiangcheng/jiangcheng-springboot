@@ -16,7 +16,7 @@ import static org.junit.Assert.assertNotNull;
  * @Author: jiangcheng31
  * @Date: 2021/5/6 15:19
  */
-public class JwtUtilTest {
+public class JWTUtilsTest {
 
     @Test
     public void createJWT() throws Exception {
@@ -28,7 +28,7 @@ public class JwtUtilTest {
 
         long ttl = 1000L;
 
-        String token = JwtUtil.createJWT(claims,subject,ttl);
+        String token = JWTUtils.createJWT(claims,subject,ttl);
 
         assertNotNull(token,"token不能为空");
 
@@ -43,7 +43,7 @@ public class JwtUtilTest {
 
         Claims claims = null;
         try {
-            claims = JwtUtil.parseJWT(jwt);
+            claims = JWTUtils.parseJWT(jwt);
         } catch (ExpiredJwtException e) {
             e.printStackTrace();
             System.out.println("token已过期");

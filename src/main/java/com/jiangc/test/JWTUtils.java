@@ -12,7 +12,7 @@ import java.util.Date;
 import java.util.Map;
 
 
-public class JwtUtil {
+public class JWTUtils {
 
     //用于生成secret key的stingKey
     private static String JWT_SECRET = "asdfghjkl1234567890";
