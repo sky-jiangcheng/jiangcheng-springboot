@@ -1,4 +1,4 @@
-package com.jiangc.practice.heartbeat.word;
+package com.jiangc.practice.heartbeat.test.word;
 
 import java.io.OutputStream;
 import java.math.BigInteger;
