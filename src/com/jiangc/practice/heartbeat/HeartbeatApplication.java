@@ -1,12 +1,12 @@
-package com.jiangc.practice;
+package com.jiangc.practice.heartbeat;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PracticeApplication {
+public class HeartbeatApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PracticeApplication.class, args);
+		SpringApplication.run(HeartbeatApplication.class, args);
 	}
 }

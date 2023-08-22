@@ -1,4 +1,4 @@
-package com.jiangc.practice.heartbeat;
+package com.jiangc.practice.heartbeat.core;
 
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
@@ -11,6 +11,6 @@ public class KeepAlive implements Serializable {
 
     @Override
     public String toString() {
-        return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date())+"\t维持连接�?";
+        return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date())+"\t维持连接�?";
     }
 }

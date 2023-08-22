@@ -1,4 +1,4 @@
-package com.jiangc.practice.heartbeat;
+package com.jiangc.practice.heartbeat.core;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -93,7 +93,7 @@ public class MyServer {
                             ObjectInputStream ois = new ObjectInputStream(in);
                             Object obj = ois.readObject();
                             lastReceiveTime = System.currentTimeMillis();
-                            System.out.println("接收�?/t"+obj);
+                            System.out.println("接收�?/t"+obj);
                             ObjectAction oa = actionMapping.get(obj.getClass());
                             oa = oa == null ? new DefaultObjectAction() : oa;
                             Object out = oa.doAction(obj,MyServer.this);

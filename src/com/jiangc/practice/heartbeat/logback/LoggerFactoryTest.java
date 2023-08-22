@@ -1,4 +1,4 @@
-package com.jiangc.practice.logback;
+package com.jiangc.practice.heartbeat.logback;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

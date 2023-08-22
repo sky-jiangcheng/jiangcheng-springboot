@@ -1,4 +1,4 @@
-package com.jiangc.practice.heartbeat;
+package com.jiangc.practice.heartbeat.core;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -41,7 +41,7 @@ public class MyClient {
             return;
         }
         socket = new Socket(serverIp,port);
-        System.out.println("本地端口�?" + socket.getLocalPort());
+        System.out.println("本地端口�?" + socket.getLocalPort());
         lastSendTime = System.currentTimeMillis();
         running = true;
 
@@ -65,7 +65,7 @@ public class MyClient {
     public void sendObject(Object obj) throws IOException {
         ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
         oos.writeObject(obj);
-        System.out.println("发�?�：\t"+obj);
+        System.out.println("发�?�：\t"+obj);
         oos.flush();
     }
 
