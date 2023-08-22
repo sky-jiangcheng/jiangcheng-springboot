@@ -9,8 +9,8 @@
     </parent>
 	
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.jiangc.practice.logback</groupId>
-	<artifactId>demo-logback</artifactId>
+	<groupId>com.jiangc.practice</groupId>
+	<artifactId>practices</artifactId>
 	<version>0.0.1</version>
 
 	<properties>
@@ -27,7 +27,7 @@
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
+            <artifactId>slf4j-api</artifactId>3
             <version>1.7.25</version>
         </dependency>
         <dependency>
@@ -35,6 +35,12 @@
             <artifactId>logback-classic</artifactId>
             <version>1.2.3</version>
         </dependency>
+        
+        
+        
+        
+        
+        
     </dependencies>
 
 </project>
