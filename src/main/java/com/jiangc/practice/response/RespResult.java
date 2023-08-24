@@ -1,4 +1,4 @@
-package com.jiangc.test.response;
+package com.jiangc.practice.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import io.swagger.annotations.ApiModel;

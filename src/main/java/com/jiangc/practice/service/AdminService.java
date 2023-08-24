@@ -1,7 +1,8 @@
-package com.jiangc.test.service;
+package com.jiangc.practice.service;
 
-import com.jiangc.test.util.JWTUtils;
 import org.springframework.stereotype.Service;
+
+import com.jiangc.practice.util.JWTUtils;
 
 import java.util.HashMap;
 import java.util.Map;

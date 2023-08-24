@@ -1,4 +1,4 @@
-package com.jiangc.test.util;
+package com.jiangc.practice.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;

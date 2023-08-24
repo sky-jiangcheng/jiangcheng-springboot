@@ -1,9 +1,10 @@
-package com.jiangc.test.interceptor;
+package com.jiangc.practice.interceptor;
 
-import com.jiangc.test.component.OnlineCounter;
-import com.jiangc.test.util.JWTUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerInterceptor;
+
+import com.jiangc.practice.component.OnlineCounter;
+import com.jiangc.practice.util.JWTUtils;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

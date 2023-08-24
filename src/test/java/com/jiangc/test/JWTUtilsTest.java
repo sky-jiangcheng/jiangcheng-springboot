@@ -1,10 +1,11 @@
 package com.jiangc.test;
 
 
-import com.jiangc.test.util.JWTUtils;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import org.junit.Test;
+
+import com.jiangc.practice.util.JWTUtils;
 
 import java.util.HashMap;
 import java.util.Map;

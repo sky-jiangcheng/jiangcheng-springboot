@@ -1,12 +1,13 @@
-package com.jiangc.test.controller;
+package com.jiangc.practice.controller;
 
-import com.jiangc.test.component.OnlineCounter;
-import com.jiangc.test.response.RespResult;
-import com.jiangc.test.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import com.jiangc.practice.component.OnlineCounter;
+import com.jiangc.practice.response.RespResult;
+import com.jiangc.practice.service.AdminService;
 
 import javax.servlet.http.HttpSession;
 import java.util.HashMap;

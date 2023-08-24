@@ -1,8 +1,9 @@
-package com.jiangc.test.component;
+package com.jiangc.practice.component;
 
-import com.jiangc.test.util.JWTUtils;
 import io.jsonwebtoken.Claims;
 import org.springframework.stereotype.Component;
+
+import com.jiangc.practice.util.JWTUtils;
 
 import java.util.Date;
 import java.util.Iterator;

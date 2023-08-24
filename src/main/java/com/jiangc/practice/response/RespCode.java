@@ -1,4 +1,4 @@
-package com.jiangc.test.response;
+package com.jiangc.practice.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
