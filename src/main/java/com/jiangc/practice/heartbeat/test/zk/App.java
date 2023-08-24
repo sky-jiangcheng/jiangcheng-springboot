@@ -1,11 +1,11 @@
-package com.jiangc.practice.zk.test;
+package com.jiangc.practice.heartbeat.test.zk;
 
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.zookeeper.KeeperException;
 
-import com.jiangc.practice.zk.zktool.CreateClient;
-import com.jiangc.practice.zk.zktool.CuratorZkClientBridge;
+import com.jiangc.practice.heartbeat.test.zk.zktool.CreateClient;
+import com.jiangc.practice.heartbeat.test.zk.zktool.CuratorZkClientBridge;
 
 import java.util.ArrayList;
 import java.util.List;

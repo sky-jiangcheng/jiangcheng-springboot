@@ -1,4 +1,4 @@
-package com.jiangc.practice.zk.zktool;
+package com.jiangc.practice.heartbeat.test.zk.zktool;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.api.BackgroundCallback;

@@ -1,9 +1,9 @@
-package com.jiangc.practice.zk.zkclient;
+package com.jiangc.practice.heartbeat.test.zk.zkclient;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.zookeeper.data.Stat;
 
-import com.jiangc.practice.zk.zkclient.CuraterUnil;
+import com.jiangc.practice.heartbeat.test.zk.zkclient.CuraterUnil;
 
 public class Node_C {
 

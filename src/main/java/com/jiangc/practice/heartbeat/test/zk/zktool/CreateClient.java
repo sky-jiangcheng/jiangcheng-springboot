@@ -1,4 +1,4 @@
-package com.jiangc.practice.zk.zktool;
+package com.jiangc.practice.heartbeat.test.zk.zktool;
 
 
 import org.apache.curator.RetryPolicy;

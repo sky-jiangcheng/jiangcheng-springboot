@@ -1,4 +1,4 @@
-package com.jiangc.practice.zk.zkclient;
+package com.jiangc.practice.heartbeat.test.zk.zkclient;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.zookeeper.data.Stat;
