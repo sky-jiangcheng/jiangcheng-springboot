@@ -1,4 +1,4 @@
-package com.jiangc.practice.heartbeat.test.sort;
+package com.jiangc.practice.test;
 import java.util.Arrays;
 public class ArrSortTest {
     /*** 10个排序 ***/
