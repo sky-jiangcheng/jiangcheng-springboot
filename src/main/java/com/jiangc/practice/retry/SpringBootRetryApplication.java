@@ -13,6 +13,7 @@ import java.util.concurrent.TimeUnit;
 //@EnableAutoConfiguration //开启自动配置
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //@SpringBootApplication
 =======
 @SpringBootApplication
@@ -23,6 +24,9 @@ import java.util.concurrent.TimeUnit;
 //@SpringBootApplication
 >>>>>>> e90e1ad577519ff6133eacd4a8700e0b1a22b7fe
 >>>>>>> 8155d061918ee8b4c970cf326d268ef62a6e19fd
+=======
+//@SpringBootApplication
+>>>>>>> 2726647d11491f4783709e376cbd037f8cf5d0bc
 public class SpringBootRetryApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootRetryApplication.class,args);
