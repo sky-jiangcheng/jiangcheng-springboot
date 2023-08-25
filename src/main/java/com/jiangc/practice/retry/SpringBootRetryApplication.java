@@ -11,22 +11,7 @@ import java.util.concurrent.TimeUnit;
 //@EnableRetry   //开启重试机制
 @EnableRetry(proxyTargetClass=true) //表示使用cglib代理
 //@EnableAutoConfiguration //开启自动配置
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 //@SpringBootApplication
-=======
-@SpringBootApplication
->>>>>>> 6a7e8196df48f52a1fb4bf179fb08541158a7477
-=======
-@SpringBootApplication
-=======
-//@SpringBootApplication
->>>>>>> e90e1ad577519ff6133eacd4a8700e0b1a22b7fe
->>>>>>> 8155d061918ee8b4c970cf326d268ef62a6e19fd
-=======
-//@SpringBootApplication
->>>>>>> 2726647d11491f4783709e376cbd037f8cf5d0bc
 public class SpringBootRetryApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootRetryApplication.class,args);
