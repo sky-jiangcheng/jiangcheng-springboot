@@ -1,4 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/build/
+/target/
+.classpath
+.settings
+=======
+>>>>>>> 8155d061918ee8b4c970cf326d268ef62a6e19fd
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -32,9 +40,13 @@ build/
 
 ### VS Code ###
 .vscode/
+<<<<<<< HEAD
 =======
 /build/
 /target/
 .classpath
 .settings
 >>>>>>> 6a7e8196df48f52a1fb4bf179fb08541158a7477
+=======
+>>>>>>> e90e1ad577519ff6133eacd4a8700e0b1a22b7fe
+>>>>>>> 8155d061918ee8b4c970cf326d268ef62a6e19fd

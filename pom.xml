@@ -1,4 +1,29 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.2.2.RELEASE</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.jiangc.practice</groupId>
+	<artifactId>practices</artifactId>
+	<version>0.0.1</version>
+
+	<properties>
+		<slf4j.version>1.7.13</slf4j.version>
+	</properties>
+
+	<dependencies>
+		<!--使用lombok 打印日志 缺一不可 -->
+=======
+>>>>>>> 8155d061918ee8b4c970cf326d268ef62a6e19fd
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -171,6 +196,7 @@
         </dependency>
         
         <!--使用lombok 打印日志 缺一不可 -->
+<<<<<<< HEAD
 =======
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -194,6 +220,9 @@
 	<dependencies>
 		<!--使用lombok 打印日志 缺一不可 -->
 >>>>>>> 6a7e8196df48f52a1fb4bf179fb08541158a7477
+=======
+>>>>>>> e90e1ad577519ff6133eacd4a8700e0b1a22b7fe
+>>>>>>> 8155d061918ee8b4c970cf326d268ef62a6e19fd
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -278,9 +307,12 @@
 			<!-- <version>2.8.9</version> -->
 		</dependency>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
     </dependencies>
 =======
+=======
+>>>>>>> 8155d061918ee8b4c970cf326d268ef62a6e19fd
 	</dependencies>
 
 	<build>
@@ -300,6 +332,13 @@
 			</plugin>
 		</plugins>
 	</build>
+<<<<<<< HEAD
 >>>>>>> 6a7e8196df48f52a1fb4bf179fb08541158a7477
+=======
+=======
+		
+    </dependencies>
+>>>>>>> e90e1ad577519ff6133eacd4a8700e0b1a22b7fe
+>>>>>>> 8155d061918ee8b4c970cf326d268ef62a6e19fd
 
 </project>
